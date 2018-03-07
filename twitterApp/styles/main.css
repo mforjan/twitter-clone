@@ -1,0 +1,115 @@
+div a {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.sb {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box {
+  min-height: 80px;
+  max-height: 100px;
+  width: 90%;
+  background-color: #eee;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+  max-width: 500px;
+  min-width: 320px;
+  margin-top: 10px;
+}
+
+#input-field {
+  width: 100%;
+  border: solid 1px #1da1f2;
+  border-radius: 3px;
+  height: 2em;
+  padding-bottom: 2em;
+  padding-left: 5px;
+  margin-bottom: 3px;
+  resize: none;
+}
+
+#submit-button {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+}
+
+#tweet {
+  height: 90px;
+  width: 100%;
+  background-color: #eee;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+  max-width: 500px;
+  min-width: 320px;
+  margin-top: 10px;
+}
+
+#avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #bbb;
+  height: 80px;
+  width: 80px;
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  width: 80%;
+  justify-content: space-between;
+  margin-left: 5px;
+}
+
+a {
+  font-size: 12px;
+  color: gray;
+  margin-right: 30px;
+}
+
+a:hover {
+  color: #1da1f2;
+  cursor: pointer;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#message {
+  font-size: 12px;
+  word-wrap: break-word;
+}
+
+body {
+  background-color: #1da1f2;
+}

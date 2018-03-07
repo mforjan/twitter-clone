@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from '../../build/main.css';
 import Tweet from './Tweet.js'
 import { connect } from 'react-redux';
 

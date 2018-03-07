@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from '../../build/main.css';
 import { addTweet } from '../actions/actions.js'
 import { connect } from 'react-redux'
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from '../../build/main.css';
 
 const username = 'Matt Forjan '
 const handle = '@Matt'

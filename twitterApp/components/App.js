@@ -1,5 +1,4 @@
-import React from 'react';
-import styles from '../../build/main.css';
+import React from 'react'
 import InputBox from './InputBox.js'
 import TweetContainer from './TweetContainer.js'
 import { Provider } from 'react-redux'
